@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>2.1. 📖 HTML y CSS | La Web: &lt;p&gt;Los Constructores Web&lt;/p&gt; </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="José López Expósito" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.8.1 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-web-site" id="exe-node-55"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header"  style="background-image: url(software-sitio-aplicacion-simbolo-multimedia-digital.jpg); background-repeat: repeat-x;"><div id="headerContent">La Web: &lt;p&gt;Los Constructores Web&lt;/p&gt;</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">💻 La Web: &lt;p&gt;Los Constructores Web&lt;/p&gt; 🛠️💻</a></li>
+   <li><a href="1__caractersticas_funcionamiento_y_ejemplos.html" class="no-ch">1. 📖 Características, funcionamiento y ejemplos.</a></li>
+   <li class="current-page-parent"><a href="2__desarrollo_de_pginas_web.html" class="current-page-parent daddy">2. 📖 Desarrollo de páginas web</a>
+   <ul>
+      <li id="active"><a href="21__html_y_css.html" class="active no-ch">2.1. 📖 HTML y CSS</a></li>
+      <li><a href="22__herramientas_de_diseo.html" class="no-ch">2.2. 📖 Herramientas de Diseño</a></li>
+      <li><a href="23__gestores_de_contenido.html" class="daddy">2.3. 📖 Gestores de Contenido</a>
+      <ul class="other-section">
+         <li><a href="231__gua_paso_de_wordpress.html" class="no-ch">2.3.1. 📖 Guía Paso de Wordpress</a></li>
+      </ul>
+      </li>
+      <li><a href="24__elaboracin_de_contenidos_web.html" class="daddy">2.4. 📖 Elaboración de Contenidos Web</a>
+      <ul class="other-section">
+         <li><a href="241__gua_de_elaboracin_de_contenidos_web.html" class="no-ch">2.4.1. 📖 Guía de Elaboración de Contenidos Web</a></li>
+      </ul>
+      </li>
+   </ul>
+   </li>
+   <li><a href="3__accesibilidad_y_usabilidad.html" class="no-ch">3. 📖 Accesibilidad y Usabilidad</a></li>
+   <li><a href="4__alojamiento_y_difusin_de_contenidos.html" class="no-ch">4. 📖 Alojamiento y Difusión de Contenidos</a></li>
+   <li><a href="5__posicionamiento_y_analtica_web.html" class="no-ch">5. 📖 Posicionamiento y Analítica Web</a></li>
+   <li><a href="_crditos_.html" class="no-ch">ℹ️ Créditos ℹ️</a></li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="2__desarrollo_de_pginas_web.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="22__herramientas_de_diseo.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">2.1. 📖 HTML y CSS</h1></header>
+<article class="iDevice_wrapper textIdevice em_iDevice em_iDevice_preknowledge" id="id215">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_preknowledge.png)"><h1 class="iDeviceTitle">Introducción</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta215_215_2" class="block iDevice_content">
+<div class="exe-text"><p>El HTML (HyperText Markup Language) es el lenguaje de marcado estándar para crear páginas web. Es la base sobre la que se construyen todos los sitios web y es esencial para cualquier persona interesada en el desarrollo web. Para profundizar en cada tema de HTML, utilizaremos <strong>w3schools</strong> como nuestro principal punto de referencia, un recurso educativo en línea reconocido por su claridad y profundidad en temas de programación web.</p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id216">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">Creando un documento HTML</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta216_216_2" class="block iDevice_content">
+<div class="exe-text"><ol>
+<li>
+<p><strong>Estructura de un Documento HTML:</strong> Todo documento HTML comienza con la declaración <code>&lt;!DOCTYPE html&gt;</code>, seguida de la etiqueta <code>&lt;html&gt;</code> que envuelve todo el contenido de la página. Dentro de <code>&lt;html&gt;</code>, encontramos dos secciones principales: <code>&lt;head&gt;</code>, que contiene metadatos y enlaces a hojas de estilo o scripts, y <code>&lt;body&gt;</code>, donde se escribe el contenido visible de la página.</p>
+<p>Referencia: <a href="https://www.w3schools.com/html/html_basic.asp" target="_blank" rel="noopener">Estructura HTML Básica en w3schools</a></p>
+</li>
+<li>
+<p><strong>Creación de Archivos HTML:</strong> Para comenzar, creamos un archivo nuevo con la extensión <code>.html</code>. Esto se puede hacer usando cualquier editor de texto (como Notepad) o un Entorno de Desarrollo Integrado (IDE) como Visual Studio Code o Sublime Text.</p>
+<p style="text-align: center;"><img alt="Notepad" src="https://www.w3schools.com/html/img_notepad.png" class="w3-image" /></p>
+<p>Referencia: <a href="https://www.w3schools.com/html/html_editors.asp" target="_blank" rel="noopener">Cómo crear un archivo HTML en w3schools</a></p>
+</li>
+<li>
+<p><strong>Visualizando el HTML:</strong> Una vez que hemos escrito algo de HTML en nuestro archivo, podemos ver cómo se muestra en un navegador web. Simplemente abrimos el archivo con cualquier navegador (Chrome, Firefox, Safari, etc.) para ver el resultado.</p>
+</li>
+</ol>
+<p style="text-align: center;"><img alt="View in Browser" src="https://www.w3schools.com/html/img_chrome.png" class="w3-image" /></p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id217">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">Creando una página web básica</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta217_217_2" class="block iDevice_content">
+<div class="exe-text"><div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta193_193_2" class="block iDevice_content">
+<div class="exe-text">
+<ul>
+<li>
+<p><strong>Título y Párrafos:</strong> Comenzamos añadiendo un título con la etiqueta <code>&lt;title&gt;</code> en el <code>&lt;head&gt;</code> y párrafos en el <code>&lt;body&gt;</code> usando <code>&lt;p&gt;</code>.</p>
+<p>Referencia: <a href="https://www.w3schools.com/html/html_page_title.asp" target="_blank" rel="noopener">Títulos</a> y <a href="https://www.w3schools.com/html/html_paragraphs.asp" target="_blank" rel="noopener">párrafos</a> en w3schools</p>
+</li>
+</ul>
+<p style="text-align: center;"><img src="https://www.w3schools.com/html/pagetitle.jpg" style="max-width: 1056px; width: 527px;" width="516" height="243" /></p>
+<ul>
+<li>
+<p><strong>Enlaces e Imágenes:</strong> Añadimos enlaces con <code>&lt;a href="URL"&gt;</code> y mostramos imágenes con <code>&lt;img src="url_de_la_imagen" alt="descripción"&gt;</code>.</p>
+<p>Referencia: <a href="https://www.w3schools.com/html/html_links.asp" target="_blank" rel="noopener">Enlaces</a> e<a href="https://www.w3schools.com/html/html_images.asp" target="_blank" rel="noopener"> Imágenes en w3schools</a></p>
+</li>
+<li>
+<p><strong>Listas y Tablas:</strong> Incorporamos listas utilizando <code>&lt;ul&gt;</code> para listas no ordenadas y <code>&lt;ol&gt;</code> para listas ordenadas. Las tablas se crean con <code>&lt;table&gt;</code>, <code>&lt;tr&gt;</code> para filas y <code>&lt;td&gt;</code> para celdas.</p>
+<p>Referencia: <a href="https://www.w3schools.com/html/html_lists.asp" target="_blank" rel="noopener">Listas</a> y <a href="https://www.w3schools.com/html/html_tables.asp" target="_blank" rel="noopener">Tablas</a> en w3schools. Ejemplo:</p>
+</li>
+</ul>
+<table class="exe-table" id="customers" style="border-style: solid; border-color: #210606; background-color: #f5f5f5;">
+<tbody>
+<tr>
+<th>Company</th>
+<th>Contact</th>
+<th>Country</th>
+</tr>
+<tr>
+<td>Alfreds Futterkiste</td>
+<td>Maria Anders</td>
+<td>Germany</td>
+</tr>
+<tr>
+<td>Centro comercial Moctezuma</td>
+<td>Francisco Chang</td>
+<td>Mexico</td>
+</tr>
+<tr>
+<td>Ernst Handel</td>
+<td>Roland Mendel</td>
+<td>Austria</td>
+</tr>
+<tr>
+<td>Island Trading</td>
+<td>Helen Bennett</td>
+<td>UK</td>
+</tr>
+<tr>
+<td>Laughing Bacchus Winecellars</td>
+<td>Yoshi Tannamuri</td>
+<td>Canada</td>
+</tr>
+<tr>
+<td>Magazzini Alimentari Riuniti</td>
+<td>Giovanni Rovelli</td>
+<td>Italy</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>
+<p><strong><img src="https://materiales.apprendiendo.es/4-eso/digitalizacion/desarrollo-aplicaciones/contenidos/Captura_de_pantalla_2024-01-12_a_las_8.58.01.png" width="251" height="342" alt="Cabeceras" style="float: right;" />Cabeceras:</strong> Usamos <code>&lt;h1&gt;</code>, <code>&lt;h2&gt;</code>, <code>&lt;h3&gt;</code>, etc., para definir encabezados de diferentes niveles.</p>
+<p>Referencia: <a href="https://www.w3schools.com/html/html_headings.asp">Cabeceras en w3schools</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice em_iDevice_write" id="id218">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_write.png)"><h1 class="iDeviceTitle">Introducción al estilo con CSS</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta218_218_2" class="block iDevice_content">
+<div class="exe-text"><p>CSS (Cascading Style Sheets) se utiliza para definir el estilo de los elementos HTML. Aprenderemos a cambiar colores, formato de texto y tamaño de imágenes.</p>
+<ol>
+<li>
+<p><strong>Estilos Básicos:</strong> Podemos cambiar el color del texto, el fondo de los elementos y el tamaño de las imágenes. Esto se hace utilizando la etiqueta <code>&lt;style&gt;</code> dentro de <code>&lt;head&gt;</code> o en archivos CSS externos.</p>
+<p>Referencia: <a href="https://www.w3schools.com/html/html_styles.asp" target="_blank" rel="noopener">Etiqueta style en html</a>, <a href="https://www.w3schools.com/css/default.asp" target="_blank" rel="noopener">css básico</a> en w3schools</p>
+</li>
+<li>
+<p><strong>Aplicando CSS:</strong> Aplicamos estilos directamente a elementos HTML o utilizando clases e IDs para un mayor control.</p>
+<p>Referencia: <a href="https://www.w3schools.com/css/css_selectors.asp" target="_blank" rel="noopener">Aplicación de CSS en w3schools</a></p>
+</li>
+</ol>
+<p>Ejemplo de aplicación de estilos a un texto:</p>
+<div class="w3-container w3-white">
+<p style="font-size: 20px; color: red; text-align: center;">I am Red</p>
+<p style="font-size: 20px; color: blue; text-align: center;">I am Blue</p>
+<p style="font-size: 36px; margin: 12px 0px; text-align: center;">I am Big</p>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="2__desarrollo_de_pginas_web.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="22__herramientas_de_diseo.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<footer id="siteFooter">Material de apprendiendo</footer></div>
+<p id="made-with-eXe"><a href="https://exelearning.net/" target="_blank" rel="noopener"><span>Creado con eXeLearning<span> (Ventana nueva)</span></span></a></p><script type="text/javascript" src="_style_js.js"></script></body></html>
